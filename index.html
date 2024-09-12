@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-bar">
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <img src="your-image.jpg" alt="My Photo" class="profile-photo">
+        <p>Hello! I'm Vibhanshu Tyagi a fourth-year BTech student majoring in Computer Science, with a passion for technology and innovation. Throughout my academic journey, I have honed my skills in various programming languages and technologies, particularly Python, which has become my primary tool for solving complex problems and building dynamic applications.<br>
+            <br>In addition to my coursework, I actively engage in projects and practical experiences that challenge and expand my understanding of software development. My interests lie in creating efficient, user-centric solutions and contributing to meaningful tech-driven projects.</p>
+    </section>
+
+
+
+    <section id="education" class="section">
+        <h2>Education</h2>
+        <div class="education-item">
+            <h3>Bachelor of Technology in Computer Science</h3>
+            <p>SRM University,Delhi NCR CAmpus [September 2021 - present]</p>
+            <p>GPA: 8.86</p>
+        </div>
+        <div class="education-item">
+            <h3>12th</h3>
+            <p>Shivoy School, Ghaziabad [2019]</p>
+            <p>Percentage; 84.6</p>
+        </div>
+        <div class="education-item">
+            <h3> High School</h3>
+            <p>Shivoy School, Ghaziabad [2021</p>
+            <p>Percentage: 90</p>
+        </div>
+    </section>
+    
+
+    <section id="certificates" class="section">
+        <h2>Certificates</h2>
+        <div class="certificate-item">
+            <h3>Basics Of Python - Coding Ninjas</h3>
+            <a href="https://drive.google.com/file/d/YOUR_FILE_ID_1/view?usp=sharing" target="_blank">View Certificate</a>
+        </div>
+        <div class="certificate-item">
+            <h3>Database management System - NPTEL</h3>
+            <a href="https://drive.google.com/file/d/YOUR_FILE_ID_2/view?usp=sharing" target="_blank">View Certificate</a>
+        </div>
+        <div class="certificate-item">
+            <h3>Programming with JavaScript</h3>
+            <a href="https://drive.google.com/file/d/YOUR_FILE_ID_3/view?usp=sharing" target="_blank">View Certificate</a>
+        </div>
+    </section>
+
+    
+
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+        <div class="project-item">
+            <h3>CRUD Application [HTML, CSS, JavaScript, DBMS] </h3>
+            <a href="https://drive.google.com/file/d/YOUR_PROJECT_FILE_ID_1/view?usp=sharing" target="_blank">
+                <img src="project1.jpg" alt="CRUD">
+            </a> <p>Developed a CRUD application enabling users to Create, Read, Update, and Delete records efficiently, with a user-friendly interface
+                and robust backend integration for data management.</p>
+            
+        </div>
+        <div class="project-item">
+            <h3>ProctorSecure: Ai powered exam integrity [Artificial Intelligence, Real-time data processinng, Machine Learning, Python Programming]</h3>
+            <a href="https://drive.google.com/file/d/YOUR_PROJECT_FILE_ID_1/view?usp=sharing" target="_blank">
+                <img src="computer_eyes.jpg" alt="CRUD"> </a>
+            <p>Developed ProctorSecure, an AI-based tool ensuring exam integrity with real-time monitoring, automated fraud detection, and
+                behavioral analysis to prevent cheating and maintain fairness..</p>
+        </div>
+        <div class="project-item">
+            <h3>E-commerce Platform [HTML, CSS, JavaScript, Git]</h3>
+            <a href="https://drive.google.com/file/d/YOUR_PROJECT_FILE_ID_1/view?usp=sharing" target="_blank">
+                <img src="images.jpeg" alt="CRUD"> </a>
+            <p>Developed an e-commerce platform with a C++ backend for handling data and transactions, and a JavaScript frontend for user
+                interaction, product management, and checkout.</p>
+        </div>
+        <div class="project-item">
+            <h3>Online Taxi System [HTML, CSS, JavaScript, Git]</h3>
+            <a href="https://drive.google.com/file/d/YOUR_PROJECT_FILE_ID_1/view?usp=sharing" target="_blank">
+                <img src="taxi-app-development-banner.png" alt="CRUD"> </a>
+            <p>C++ backend for managing ride requests, driver allocation, and payments, alongside a JavaScript frontend for user booking, real-time
+                tracking, and driver interaction, providing a comprehensive and user-friendly transportation solution.</p>
+        </div>
+    </section>
+    
+    <section id="personal-details" class="section">
+        <h2>Personal Details</h2>
+        <div class="personal-item">
+            <p><strong>Name:</strong> Vibhanshu Tyagi</p>
+        </div>
+        <div class="personal-item">
+            <p><strong>Address:</strong> Govindpuram Ghaziabad, U.P (201013)</p>
+        </div>
+        <div class="personal-item">
+            <p><strong>Phone Number:</strong> +91 8076485105</p>
+        </div>
+        <div class="personal-item">
+            <p><strong>Email:</strong> <a href="mailto: tvibhanshu0987@gmail.com">tvibhanshu0987@gmail.com</a></p>
+        </div>
+    </section>
+    
+
+
+
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
+
